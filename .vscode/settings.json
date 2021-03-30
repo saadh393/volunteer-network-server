@@ -1,0 +1,14 @@
+{
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "prettier.disableLanguages": ["javascript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true
+}
